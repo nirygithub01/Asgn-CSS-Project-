@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.box-product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 24rem;
+
+
+
+}
+.btn{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+    background-color: blue;
+}
+
+.image{
+    width: 19rem;
+    height: 28rem;
+    margin-bottom: 3.5rem;
+}
+.div-image{
+    width: 20rem;
+   /** border: 1px solid red;*/
+   
+}
+.div-description{
+    margin-top: 3rem;
+    width: 22rem;
+    /**border: 1px solid rgb(16, 80, 10);*/
+}
+p{
+    text-align: center;
+
+}
+table{
+    border: 0px solid white;
+}
+th, td{
+    padding-top: 1%;
+}
